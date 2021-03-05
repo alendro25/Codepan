@@ -1,0 +1,11 @@
+Animate Scroll counting number:
+https://codepen.io/dmcreis/pen/VLLYPo
+
+Animated CSS:
+https://animate.style/
+
+Animasi Hover
+https://ianlunn.github.io/Hover/
+
+Animated On Scroll(AOS)
+https://michalsnik.github.io/aos/

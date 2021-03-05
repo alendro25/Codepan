@@ -1,0 +1,15 @@
+Landing Page
+Blog
+Career
+Portfolio
+Kontak Kami
+Layanan IT
+About Us
+
+Tentang Kami (done)
+Sistem Informasi (done)
+Aplikasi Mobile	(On Progress)
+Aplikasi e-Gov (On Progress)
+Integrasi Sistem (On Progress)
+Pengadaan IT (On Progress)
+Aturan Layanan (done)

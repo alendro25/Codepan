@@ -1,0 +1,1164 @@
+@media only screen and (max-width: 1024px){
+
+    /* Hadir dengan Solusi */
+    #row-card .card{
+        height: 320px;
+    }
+    #row-card .card-body h5{
+        font-size: 15px;
+    }
+    #row-card .card-body p{
+        font-size: 30px;
+    } 
+    #row-card .card-body span{
+        font-size: 24px;
+    } 
+    #row-card .card-body #count1{
+        /* margin-left: -20px; */
+        margin-left: -20%;
+    } 
+    #row-card .card-body #count2{
+        /* margin-left: -20px; */
+        margin-left: -20%;
+    } 
+    #row-card .card-body #count3{
+        /* margin-left: -85px; */
+        margin-left: -45%;
+    } 
+    #row-card .card-body #count4{
+        /* margin-left: -140px;  */
+        margin-left: -66%;
+    } 
+
+    #row-card .card-body span{
+        font-size: 30px;
+    } 
+    #row-card .card-body #span1{
+        top: 52%;
+        left: 50%;
+    } 
+    #row-card .card-body #span2{
+        top: 52%;
+        left: 60%;
+    } 
+    #row-card .card-body #span3{
+        font-size: 25px;
+        top: 53%;
+        left: 50%;
+    }
+    #row-card .card-body #span4{
+        font-size: 25px;
+        top: 52%;
+        left: 30%;
+    }
+
+    /* Portofolio */
+    #portofolio .card-portofolio .tombol{
+        margin: 15px auto;
+        font-size: 14px;
+        height: 30px;
+        padding-top: 3px;
+        width: 200px;
+    }
+
+    /* Mitra Kerja */    
+    #mitraKerja .row-putih{
+        height: 450px;
+    }
+
+    /* Tentang5 */
+    #tentang5 .container{
+        height: 400px;
+    }
+    #tentang5 .judul-tentang5 h1{
+        margin-top: -140px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    #tentang5 .isi-tentang5 .tombol{
+        width: 300px;
+        height: 60px;
+        padding: 18px;
+     }
+
+}
+@media only screen and (max-width: 992px){
+    /* NavBar */
+    .navbar-brand{
+        position: absolute;
+        top: 0;
+        left: 38%;
+    }
+    .mega-area{
+        margin-top: 0px;
+    }
+    
+    /* Tentang1 */
+    #tentang1 .dwnld-btn{
+        width: 300px;
+        font-size: 15px;
+        padding-top: 13px;
+    }
+
+    /* Tentang3 */
+    #tentang3 h1{
+        font-size: 37px;
+    }
+
+    /* Tentang4 */
+    #tentang4 .card{
+        height: auto;
+    }
+
+    
+    /* Hadir dengan Solusi */
+    #row-card .card{
+        height: 330px;
+    }
+    #row-card .card-body h5{
+        font-size: 15px;
+    }
+    #row-card .card-body p{
+        font-size: 30px;
+    } 
+    #row-card .card-body span{
+        font-size: 24px;
+    } 
+    #row-card .card-body #count1{
+        /* margin-left: -20px; */
+        margin-left: -20%;
+    } 
+    #row-card .card-body #count2{
+        /* margin-left: -20px; */
+        margin-left: -20%;
+    } 
+    #row-card .card-body #count3{
+        /* margin-left: -85px; */
+        margin-left: -45%;
+    } 
+    #row-card .card-body #count4{
+        /* margin-left: -140px;  */
+        margin-left: -90%;
+    } 
+
+    #row-card .card-body span{
+        font-size: 30px;
+    } 
+    #row-card .card-body #span1{
+        top: 48%;
+        left: 55%;
+    } 
+    #row-card .card-body #span2{
+        top: 48%;
+        left: 65%;
+    } 
+    #row-card .card-body #span3{
+        font-size: 25px;
+        top: 49%;
+        left: 55%;
+    }
+    #row-card .card-body #span4{
+        font-size: 25px;
+        top: 49%;
+        left: 30%;
+    }
+    #judulSI p .hvr-bounce-to-top::before{
+        background-color: #2926A9;
+        width: 93%;
+      }
+
+    /* Kunci Sukses */
+    #kunci-sukses .figure-caption h1{
+        margin-top: 10px;
+    }
+    #kunci-sukses .capt{
+        margin-bottom: 20px;
+    }
+
+    /* Portofolio */
+    #portofolio .card-portofolio{
+        margin: 50px 0;
+        box-shadow: 2px 2px 20px #A6A5A5;
+        display: flex;
+        align-content: center;
+        padding: 10px;
+    }
+    #portofolio .card-portofolio h5{
+        font-size: 14px;
+    }
+    
+    #portofolio .card-portofolio p{
+        font-size: 12px;
+    }
+    
+    #portofolio .card-portofolio .tombol{
+        margin: 15px 3px 0 3px;
+        font-size: 14px;
+        height: 30px;
+        padding-top: 3px;
+        width: 150px;
+    }
+
+    /* Produk */
+    #produk .card-produk .card-body .tombol{
+        width: auto;
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    #produk .card-produk img{
+        width: auto;
+        height: 200px;
+    }
+    #produk .card-produk h5{
+        font-size: 13px;
+    }
+    #produk .card-produk .card-text{
+        font-size: 10px;
+    }
+    #produk .pembungkus-produk .card-produk .tombol{
+        width: 150px;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 13px;
+    }
+
+    /* Mitra Kerja */
+    #mitraKerja .row-biru img{
+        margin: 60px 500px;
+    }
+    #mitraKerja .row-putih{
+        height: 600px;
+    }
+    #mitraKerja .row-putih .img-testi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #mitraKerja .row-putih h2{
+       margin-top: 60px;
+    }
+    #mitraKerja .row-putih-testi{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #mitraKerja .col-putih-testi{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+
+    /* Solusi */
+    .solusi .container-form .btn-submit{
+        height: 60%;
+        width: 90%;
+        font-size: .9rem;
+    }
+    /*--- Radio Button ---*/
+    .solusi .container-form .costum-radio{
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    /*--- End of Radio Button ---*/
+    
+
+
+
+
+    /* Cara Kerja */
+    #caraKerja .col-biru .tag-besar{
+        margin-bottom: 20px;
+    }
+    #caraKerja .col-biru .capt{
+        margin-bottom: 20px;
+    }
+    #caraKerja .col-biru ul li img{
+        height: 50px;
+        width: 50px;
+    }
+    
+    #caraKerja .col-biru ul li h4{
+        font-size: 18px;
+    }
+    #caraKerja .col-biru ul li p{
+        font-size: 12px;
+    }
+
+    /* Footer */
+    #footer{
+        margin-top: -51px;
+    }
+    #footer h6{
+        font-size: 15px;
+    }
+    #footer ul li{
+        font-size: 12px;
+    }
+
+
+}
+
+@media only screen and (max-width: 812px){
+
+}
+
+@media only screen and (max-width: 767px){
+    /* Hadir Dengan Solusi */
+    #row-card .card img{
+        width: 40px;
+        height: 40px;
+        margin: 20px auto;
+    }
+    
+    #row-card .card-body h5{
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        color: #2926A9;
+    } 
+    
+    #row-card .card-body p{
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        color: #2926A9;
+    } 
+    #row-card .card-body span{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: #A4A3C0;
+    } 
+
+    /* Portofolio */
+    #portofolio .card-portofolio .tombol{
+        font-size: 10px;
+        color: white;
+        font-weight: bold;
+        width: auto;
+        height: auto;
+    }
+    
+    /* Mitra Kerja */
+    #mitraKerja .row-biru img{
+        margin: 60px 0;
+        margin-left: 190px;
+    }
+    #mitraKerja .row-putih{
+        background-color: white;
+        height: auto;
+    }
+    #mitraKerja .row-putih img{
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    #mitraKerja .row-putih h2{
+        font-weight: 600;
+        font-size: 16px;
+        color: #2926A9;
+    }
+    #mitraKerja .row-putih small{
+        font-weight: 500;
+        font-size: 10px;
+        color: #706E6E;
+        text-align: left;
+    }
+    #mitraKerja .row-putih  p{
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 13px;
+        color: #706E6E;
+        text-align: left;
+    }
+
+   /* Footer */
+   #footer{
+    margin-top: -50px;
+    background-color: #2926A9;
+    }
+    .panjang-footer{
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (max-width: 640px){
+    /* -- Tentang1 -- */
+    #tentang1 .dwnld-btn{
+        font-size: 12px;
+        width: 240px;
+        height: 40px;
+    }
+
+    /* -- Tentang2 -- */
+    #tentang2 .card-body{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 15px;
+    }
+
+    #tentang3 h3{
+        font-size: 30px;
+    }
+    #tentang3 h1{
+        font-size: 25px;
+    }
+    #tentang3 p{
+        font-size: 20px;
+    }
+
+     /* Hadir Dengan Solusi */
+     #judulSI p .hvr-bounce-to-top::before{
+        background-color: #2926A9;
+        width: 50%;
+      }
+     #row-card .card{
+        height: 200px;
+        width: 70%;
+        margin: 30px auto;
+    }
+    #row-card .card-body #count1{
+        /* margin-left: -20px; */
+        margin-left: -10%;
+    } 
+    #row-card .card-body #count2{
+        /* margin-left: -20px; */
+        margin-left: -10%;
+    } 
+    #row-card .card-body #count3{
+        /* margin-left: -85px; */
+        margin-left: -20%;
+    } 
+    #row-card .card-body #count4{
+        /* margin-left: -140px;  */
+        margin-left: -34%;
+    } 
+
+    #row-card .card-body span{
+        font-size: 30px;
+    } 
+    #row-card .card-body #span1{
+        top: 52%;
+        left: 50%;
+    } 
+    #row-card .card-body #span2{
+        top: 51%;
+        left: 54%;
+    } 
+    #row-card .card-body #span3{
+        top: 54%;
+        left: 50%;
+    }
+    #row-card .card-body #span4{
+        top: 54%;
+        left: 40%;
+    }
+
+    /* Produk */
+    #produk .card-produk{
+        width: 60%;
+    }
+
+
+    /* --Kunci Sukses-- */
+    #kunci-sukses .figure{
+        margin: 0;
+        padding: 0;
+    }
+    #kunci-sukses .figure-img{
+        margin-top: 50px;
+    }
+    #kunci-sukses .figure-caption h1{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #kunci-sukses .figure-caption p{
+        font-size: 13px;
+        text-align: center;
+        color: #7F7F7F;
+    }
+
+    /* --Mitra Kerja-- */
+    #mitraKerja .row-biru img{
+        margin: auto;
+    }
+    #mitraKerja .row-putih{
+        height: 560px;
+    }
+    #mitraKerja .row-putih-testi{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+    }
+
+
+    /* -- Solusi -- */
+    .solusi .container-form .btn-submit{
+        margin-top: 10px;
+       height: 80%;
+        width: 40%;
+    }
+    
+
+    /* -- Tentang5 -- */
+    #tentang5 .container{
+        height: 400px;
+    }
+     #tentang5 .judul-tentang5 h1{
+        margin-top: -140px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+     }
+    #tentang5 .isi-tentang5 p{
+        font-size: 15px;
+    }
+    #tentang5 .isi-tentang5 .tombol{
+        font-size: 15px;
+        width: 250px;
+        height: 50px;
+        padding: 13px;
+    }
+
+
+    /* Footer */
+    .footer-copyright p{
+        font-size: 13px;
+    }
+   
+
+}
+
+@media only screen and (max-width: 600px) {
+    /* --- Header --- */
+    header .email{
+        margin-top: 10px;
+    }
+
+    header ul li{
+        margin: 0;
+    }
+
+    header ul li img{
+        margin-top: 25px;
+        width: 40px;
+    }
+
+    header ul li p{
+        font-size: 13px;
+    }
+
+    /*--- Navbar ---*/
+    nav ul{
+        margin: 15px;
+        padding: 0;
+    }
+
+    nav img{
+        width: 35px;
+    }
+    
+    /*--- Jumbotron ---*/
+    .jumbotron{
+        padding: 30px 20px;
+    }
+
+    .jumbotron p{
+        text-align: center;
+    }
+
+    /*--- Jenis Layanan ---*/
+    .jenis-layanan .container .judul hr{
+        width: 10%;
+    }
+
+    /* Hadir Dengan Solusi */
+    #row-card .card img{
+        width: 40px;
+        height: 40px;
+        margin: 20px auto;
+    }
+    
+    #row-card .card-body h5{
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        color: #2926A9;
+    } 
+    
+    #row-card .card-body p{
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        color: #2926A9;
+    } 
+    #row-card .card-body span{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: #A4A3C0;
+    } 
+
+    /* Portofolio */
+    #portofolio .card-portofolio .tombol{
+        font-size: 10px;
+        color: white;
+        font-weight: bold;
+        width: auto;
+        height: auto;
+    }
+
+
+
+    /* Mitra Kerja */
+    #mitraKerja .row-biru img{
+        margin: 60px 0;
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    /* NavBar */
+    .navbar-brand{
+        position: absolute;
+        top: 0;
+        left: 30%;
+    }
+    .navbar .mega-area{
+        margin-top: 0px;
+        height: 400px;
+        overflow: scroll;
+    }
+    .navbar .mega-col img{
+        width: 40px;
+        height: 40px;
+    }
+
+   /* Jumbotron */
+   .jumbotron{
+        height: 300px;   
+   }
+   .jumbotron .display-4{
+      margin-top: 20px;
+      font-size: 30px;
+    }
+    .jumbotron center{
+        font-size: 10px;
+    }
+   .jumbotron a{
+    margin: 50px auto;
+    }
+    .jumbotron .tombol{
+        width: 150px;
+        height: 40px;
+        padding-top: 9px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+/* Tentang1 */
+#tentang1 h2{
+    margin-top: -50px;
+    text-align: left;
+    font-size: 25px;
+}
+#tentang1 p{
+    margin-top: 30px;
+}
+#tentang1 .dwnld-btn{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #33BEF0;
+    background-color: #33BEF0;
+    height: 38px;
+    width: auto;
+    padding-top: 6px;
+    border-radius: 41.5px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+/* Tentang2 */
+#tentang2 .card{
+    margin: 50px 0;
+    box-shadow: 2px 2px 20px rgba(100, 78, 78, 0.616);
+    height: 300px;
+    box-sizing: border-box;
+}
+#tentang2 .card-body{
+    padding: 20px;
+}
+
+    /* Tentang3 */
+    #tentang3{
+        padding-top: 10px;
+        height: auto;
+    }
+
+    #tentang3 .animasi-headline{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    #tentang3 h3{
+        font-weight: 800;
+        font-size: 14px;
+    }
+    #tentang3 h1{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 73px;
+        color: white;
+    }
+    #tentang3 p{
+        font-weight: 800;
+        font-size: 10px;
+    }
+    #tentang3 .modal .modal-content{
+        width: 600px;
+    }
+    #tentang3 .modal .modal-body iframe{
+        width: 300px;
+        height: 215px;
+    }
+
+    /* Tentang4 */
+    .gagasan h1{
+        font-size: 20px;
+        font-weight: bold;
+        color: #2926A9;
+        margin-bottom: 30px;
+    }
+
+
+    /* Hadir Dengan Solusi */
+    #judulSI h1{
+        font-size: 30px;
+    }
+    #judulSI p .hvr-bounce-to-top::before{
+        background-color: #2926A9;
+        width: 75%;
+      }
+
+    #bullets{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    #row-card .card{
+        height: 200px;
+    }
+        
+    #row-card .card-body #count1{
+        /* margin-left: -20px; */
+        margin-left: -10%;
+    } 
+    #row-card .card-body #count2{
+        /* margin-left: -20px; */
+        margin-left: -13%;
+    } 
+    #row-card .card-body #count3{
+        /* margin-left: -85px; */
+        margin-left: -30%;
+    } 
+    #row-card .card-body #count4{
+        /* margin-left: -140px;  */
+        margin-left: -53%;
+    } 
+
+    #row-card .card-body span{
+        font-size: 30px;
+    } 
+    #row-card .card-body #span1{
+        top: 52%;
+        left: 50%;
+    } 
+    #row-card .card-body #span2{
+        top: 51%;
+        left: 54%;
+    } 
+    #row-card .card-body #span3{
+        top: 54%;
+        left: 50%;
+    }
+    #row-card .card-body #span4{
+        top: 54%;
+        left: 33%;
+    } 
+
+    /* Kunci Sukses */
+    #kunci-sukses .tag-kecil{
+        font-size: 10px;
+    }
+    #kunci-sukses .tag-besar{
+        font-size: 20px;
+    }
+    #kunci-sukses .capt{
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+    #kunci-sukses .figure-caption h1{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    #kunci-sukses .figure-caption p{
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+
+    /* Portofolio */
+    #portofolio .tag-kecil{
+        font-size: 10px;
+    }
+    #portofolio .tag-besar{
+        font-size: 25px;
+    }
+    #portofolio .capt{
+        font-size: 10px;
+    }
+    #portofolio .card-portofolio{
+        margin: 50px 0;
+        box-shadow: 2px 2px 20px #A6A5A5;
+        display: flex;
+        align-content: center;
+    }
+    
+    #portofolio .card-portofolio h5{
+        font-size: 13px;
+        font-weight: 600;
+        color: #2926A9;
+    }
+    #portofolio .card-portofolio .tombol{
+        /* margin-left: 25px; */
+        /* margin-top: 10px; */
+        margin: 0 auto;
+        margin-top: 30px ;
+        font-size: 14px;
+        width: 250px;
+        height: 30px;
+    }
+
+   /* Produk */
+   #produk .card-produk{
+        width: auto;
+    }
+   #produk .pembungkus-produk .tag-kecil{
+    font-size: 12px;
+    }
+    #produk .pembungkus-produk .tag-besar{
+        font-size: 25px;
+    }
+    #produk .pembungkus-produk .capt{
+        font-size: 10px;
+    }
+    #produk .pembungkus-produk .card-produk{
+        margin-bottom: 30px;
+    }
+    #produk .pembungkus-produk .card-produk .tombol{
+        width: 200px;
+        height: 30px;
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    #produk .card-produk img{
+        width: auto;
+        height: 200px;
+    }
+    
+
+
+
+    /* Mitra Kerja */
+    #mitraKerja .tag-besar{
+        margin-top: 10px;
+        color: white;
+        font-size: 20px;
+    }
+    #mitraKerja .capt{
+        font-size: 10px;
+    }
+    #mitraKerja .row-biru img{
+        margin: 60px 0px;
+    }
+    #mitraKerja .row-putih{
+        background-color: white;
+        height: 550px;
+        padding: 0;
+    }
+    /* #mitraKerja .row-putih .gambar1-putih img{
+        margin-top: 40px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    } */
+    #mitraKerja .row-putih img{
+        margin-top: 30px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #mitraKerja .row-putih h2{
+        font-weight: 600;
+        font-size: 13px;
+        color: #2926A9;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+    #mitraKerja .row-putih small{
+        font-weight: 500;
+        font-size: 10px;
+        color: #706E6E;
+        text-align: left;
+        line-height: 0.8;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    #mitraKerja .row-putih  p{
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 10px;
+        color: #706E6E;
+        text-align: center;
+    }
+    #mitraKerja .row-putih-testi{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #mitraKerja .col-putih-testi{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    /* Cara Kerja */
+    #caraKerja .col-biru .tag-kecil{
+        font-size: 10px;
+    }
+    #caraKerja .col-biru .tag-besar{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #caraKerja .col-biru .capt{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    #caraKerja .col-biru ul li img{
+        height: 50px;
+        width: 50px;
+    }
+    #caraKerja .col-biru ul li h4{
+        font-size: 18px;
+    }
+    #caraKerja .col-biru ul li p{
+        font-size: 10px;
+    }
+
+
+    /* Solusi */
+    .solusi .container-form .btn-submit{
+        margin-top: 10px;
+       height: 80%;
+        width: 80%;
+    }
+
+    /* Aturan Layanan */
+    .view-desktop-aturanLayanan{
+        display: none;
+    }
+    .view-mobile-aturanLayanan{
+        display: block;
+    }
+    #isi-aturanLayanan{
+        height: 900px;
+        padding-top: 30px;
+    }
+    #isi-aturanLayanan .tombol{
+        height: 48px;
+        width: 309px;
+        border-radius: 7px;
+        margin: auto;
+    }
+    .view-mobile-aturanLayanan .wrapper .accordion_body #pasal,
+    .view-mobile-aturanLayanan .wrapper .accordion_body #isi-pasal{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .view-mobile-aturanLayanan .wrapper .accordion_body #ayat-pasal,
+    .view-mobile-aturanLayanan .wrapper .accordion_body #judul-ayat{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .view-mobile-aturanLayanan .wrapper .accordion_body #ayat-pasal{
+        margin-top: 30px;
+    }
+    
+    
+
+
+ /* Tentang5 */
+ #tentang5{
+     margin-top: -5px;
+ }
+ #tentang5 .container{
+    height: 500px;
+}
+ #tentang5 .judul-tentang5 h1{
+    margin-top: -140px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+ }
+ #tentang5 .isi-tentang5 p{
+    color: #7F7F7F;
+    text-align: center;
+    font-size: 19px;
+}
+
+ #tentang5 .isi-tentang5 .tombol{
+    width: 240px;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 13px;
+}
+/* Footer */
+#footer{
+    margin-top: -50px;
+    background-color: #2926A9;
+}
+#footer h6{
+    font-size: 20px;
+}
+#footer .footer-copyright{
+    font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width: 350px){
+    /*--- Header ---*/
+    header{
+        padding: 15px;
+    }
+
+    header .contact .text .judul{
+        font-size: 11px;
+    }
+
+    header .contact .text .isi{
+        font-size: 14px;
+    }
+
+    header ul li img{
+        margin-top: 15px;
+    }
+
+    /*--- Jumbotron ---*/
+
+    .jumbotron .display-4{
+        font-size: 30px;
+    }
+
+    .jumbotron p, .jumbotron a{
+        font-size: 15px;
+    }
+
+    .jumbotron .tombol{
+        font-size: 13px;
+        width: 150px;
+        height: 40px;
+        padding-top: 9px;
+    }
+
+    /* Kunci Sukses */
+    #kunci-sukses .tag-besar{
+        font-size: 25px;
+    }
+    #kunci-sukses .figure-caption h1{
+        margin-top: 10px;
+    }
+
+    /* Portofolio */
+    #portofolio .card-portofolio .tombol{
+        margin-left: 20px;
+    }
+
+
+
+    /* Mitra Kerja */
+    #mitraKerja .tag-kecil{
+        font-size: 15px;
+    }
+    #mitraKerja .tag-besar{
+        margin-top: 10px;
+        color: white;
+        font-size: 20px;
+    }
+    #mitraKerja .capt{
+        font-size: 10px;
+    }
+    #mitraKerja .row-putih{
+        background-color: white;
+        height: auto;
+    }
+    #mitraKerja .row-putih img{
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    #mitraKerja .row-putih h2{
+        font-weight: 600;
+        font-size: 13px;
+        color: #2926A9;
+    }
+    #mitraKerja .row-putih small{
+        font-weight: 500;
+        font-size: 10px;
+        color: #706E6E;
+        text-align: left;
+    }
+    #mitraKerja .row-putih  p{
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 10px;
+        color: #706E6E;
+        text-align: left;
+    }
+
+   
+     /* Tentang 5 */
+     #tentang5 .judul-tentang5{
+        margin-top: 100px;
+        font-size: 48px;
+     }
+    #tentang5 .isi-tentang5 .tombol{
+        width: 240px;
+        height: 50px;
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    #tentang5 .isi-tentang5 {
+        margin: 10px auto;
+    }
+    #tentang5{
+        height:600px;
+    }
+    /* Footer */
+    #footer{
+        margin-top: -50px;
+        background-color: #2926A9;
+    }
+}
