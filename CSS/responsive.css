@@ -402,6 +402,7 @@
         padding: 15px;
     }
 
+    /* -- Tentang3 -- */
     #tentang3 h3{
         font-size: 30px;
     }
@@ -410,6 +411,15 @@
     }
     #tentang3 p{
         font-size: 20px;
+    }
+    #tentang3 .modal .modal-content{
+       height: 350px;
+    }
+    #tentang3 .modal .modal-content iframe{
+        height: 250px;
+    }
+    #tentang3 .modal .modal-content{
+        margin: -50px;
     }
 
      /* Hadir Dengan Solusi */
