@@ -734,6 +734,7 @@
     }
     #tentang3 .modal .modal-content{
         width: 600px;
+        margin: 0;
     }
     #tentang3 .modal .modal-body iframe{
         width: 300px;
