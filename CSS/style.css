@@ -482,6 +482,8 @@ nav li img{
     height: 430px;
     width: auto;
     margin-bottom: 40px;
+    border-radius: 10px 10px 0 0;
+    border: none;
     box-shadow: 2px 2px 20px rgba(100, 78, 78, 0.616);
 }
 #tentang4 .card .card-body{
