@@ -194,6 +194,11 @@
         background-color: #fff;
         width: 80%;
     }
+    nav .mega-area .dropdown-item a{
+        margin-bottom: 5px;
+    }
+
+    
     
     /* Tentang1 */
     #tentang1 .dwnld-btn{
