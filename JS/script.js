@@ -53,3 +53,13 @@ $(function() {
   });
   window.addEventListener("load", AOS.refresh);
 });
+
+
+// JS Navbar
+$(document).ready( $(function(){
+  var navbtn = $('.navbar-toggler');
+
+  $(navbtn).click(function(){
+    $(navbtn).toggleClass('active');
+  });
+}));

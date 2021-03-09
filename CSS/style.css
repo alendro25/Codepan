@@ -146,15 +146,17 @@ nav {
     font-weight: 600;
 }
 
-.navbar{
+.navbar {
     padding: 15px 40px;
 }
-.navbar-brand{
+
+.navbar-brand {
     position: absolute;
     margin-top: 10px;
     left: 60%;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 180px;
     height: auto;
 }
@@ -163,54 +165,61 @@ nav {
     color: #101010;
 }
 
-.navbar-light .navbar-nav .active>.nav-link{
+.navbar-light .navbar-nav .active>.nav-link {
     color: #2926A9;
 }
 
 
-nav ul{
+nav ul {
     margin: 0;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 10px;
 }
 
-nav img{
-        height: 30px;
-        width: auto;
+nav img {
+    height: 30px;
+    width: auto;
 }
-.dropdown:hover > .mega-area{
+
+.dropdown:hover>.mega-area {
     display: block;
     transition: .3s;
 }
-.menu-area{
+
+.menu-area {
     position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-nav .mega-area{
+
+nav .mega-area {
     z-index: 1001;
     position: absolute;
     width: 60%;
     left: 0;
     right: 0;
     top: 50px;
-    padding: 10px 15px;  
+    padding: 10px 15px;
 }
 
-nav .mega-area a{
+nav .mega-area a {
     text-decoration: none;
     margin-right: 0;
 }
 
-nav .mega-area a:hover{
+nav .mega-area a:hover {
     text-decoration: none;
 }
 
-nav .dropdown-item{
+nav .dropdown-item {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -218,32 +227,33 @@ nav .dropdown-item{
     cursor: pointer;
 }
 
-nav .dropdown-item a{
+nav .dropdown-item a {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-nav .dropdown-item img{
+
+nav .dropdown-item img {
     display: inline-block;
     height: 35px;
     width: inherit;
     margin-bottom: 10px;
 }
 
-nav .dropdown-item h5{
+nav .dropdown-item h5 {
     width: initial;
     font-weight: 500;
     font-size: .8rem;
     color: #627693;
 }
 
-nav li img{
+nav li img {
     height: 30px;
     width: initial;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     background: none;
 }
 
