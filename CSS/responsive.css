@@ -194,11 +194,14 @@
         background-color: #fff;
         width: 80%;
     }
+    nav .navbar-collapse .nav-sosmed{
+        margin: 10px 0 0 -50px;
+    }
     nav .mega-area .dropdown-item a{
         margin-bottom: 5px;
     }
 
-    
+
     
     /* Tentang1 */
     #tentang1 .dwnld-btn{
@@ -780,6 +783,9 @@
         position: absolute;
         top: 0;
         left: 5%;
+    }
+    nav .navbar-collapse .nav-sosmed{
+        margin: 10px 0 0 0 ;
     }
     .navbar .mega-area{
         margin-top: 0px;
