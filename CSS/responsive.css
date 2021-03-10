@@ -78,7 +78,7 @@
     
       /* -- Navbar side collapse properties -- */
       nav .navbar-collapse {
-        background: url("/img/background/page-form.png");
+        background: url("../img/background/page-form.png");
         position: fixed;
         background-repeat: no-repeat;
         background-size: cover;
