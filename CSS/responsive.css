@@ -13,44 +13,10 @@
     #row-card .card-body span{
         font-size: 24px;
     } 
-    #row-card .card-body #count1{
-        /* margin-left: -20px; */
-        margin-left: -20%;
-    } 
-    #row-card .card-body #count2{
-        /* margin-left: -20px; */
-        margin-left: -20%;
-    } 
-    #row-card .card-body #count3{
-        /* margin-left: -85px; */
-        margin-left: -45%;
-    } 
-    #row-card .card-body #count4{
-        /* margin-left: -140px;  */
-        margin-left: -66%;
-    } 
-
+   
     #row-card .card-body span{
         font-size: 30px;
     } 
-    #row-card .card-body #span1{
-        top: 52%;
-        left: 50%;
-    } 
-    #row-card .card-body #span2{
-        top: 52%;
-        left: 60%;
-    } 
-    #row-card .card-body #span3{
-        font-size: 25px;
-        top: 53%;
-        left: 50%;
-    }
-    #row-card .card-body #span4{
-        font-size: 25px;
-        top: 52%;
-        left: 30%;
-    }
 
     /* Portofolio */
     #portofolio .card-portofolio .tombol{
@@ -234,48 +200,12 @@
     }
     #row-card .card-body p{
         font-size: 30px;
-    } 
-    #row-card .card-body span{
-        font-size: 24px;
-    } 
-    #row-card .card-body #count1{
-        /* margin-left: -20px; */
-        margin-left: -20%;
-    } 
-    #row-card .card-body #count2{
-        /* margin-left: -20px; */
-        margin-left: -20%;
-    } 
-    #row-card .card-body #count3{
-        /* margin-left: -85px; */
-        margin-left: -45%;
-    } 
-    #row-card .card-body #count4{
-        /* margin-left: -140px;  */
-        margin-left: -90%;
-    } 
+    }  
 
     #row-card .card-body span{
         font-size: 30px;
     } 
-    #row-card .card-body #span1{
-        top: 48%;
-        left: 55%;
-    } 
-    #row-card .card-body #span2{
-        top: 48%;
-        left: 65%;
-    } 
-    #row-card .card-body #span3{
-        font-size: 25px;
-        top: 49%;
-        left: 55%;
-    }
-    #row-card .card-body #span4{
-        font-size: 25px;
-        top: 49%;
-        left: 30%;
-    }
+    
     #judulSI p .hvr-bounce-to-top::before{
         background-color: #2926A9;
         width: 93%;
@@ -414,40 +344,8 @@
 
 @media only screen and (max-width: 812px){
     /* Hadir Dengan Solusi */
-        #row-card .card-body #count1{
-            margin-left: -25px;
-        } 
-        #row-card .card-body #count2{
-            /* margin-left: -20px; */
-            margin-left: -13%;
-        } 
-        #row-card .card-body #count3{
-            /* margin-left: -85px; */
-            margin-left: -50%;
-        } 
-        #row-card .card-body #count4{
-            /* margin-left: -140px;  */
-            margin-left: -85%;
-        } 
-
         #row-card .card-body span{
             font-size: 30px;
-        } 
-        #row-card .card-body #span1{
-            top: 51%;
-            left: 50%;
-        } 
-        #row-card .card-body #span2{
-            top: 51%;
-            left: 66%;
-        } 
-        #row-card .card-body #span3{
-            top: 52%;
-            left: 53%;
-        }
-        #row-card .card-body #span4{
-            top: 51%;
-            left: 27%;
         } 
 }
 
@@ -580,42 +478,10 @@
         width: 70%;
         margin: 30px auto;
     }
-    #row-card .card-body #count1{
-        /* margin-left: -20px; */
-        margin-left: -10%;
-    } 
-    #row-card .card-body #count2{
-        /* margin-left: -20px; */
-        margin-left: -10%;
-    } 
-    #row-card .card-body #count3{
-        /* margin-left: -85px; */
-        margin-left: -20%;
-    } 
-    #row-card .card-body #count4{
-        /* margin-left: -140px;  */
-        margin-left: -34%;
-    } 
-
     #row-card .card-body span{
         font-size: 30px;
     } 
-    #row-card .card-body #span1{
-        top: 52%;
-        left: 50%;
-    } 
-    #row-card .card-body #span2{
-        top: 51%;
-        left: 54%;
-    } 
-    #row-card .card-body #span3{
-        top: 54%;
-        left: 50%;
-    }
-    #row-card .card-body #span4{
-        top: 54%;
-        left: 40%;
-    }
+    
 
     /* Produk */
     #produk .card-produk{
@@ -917,42 +783,9 @@
     #row-card .card{
         height: 200px;
     }
-        
-    #row-card .card-body #count1{
-        /* margin-left: -20px; */
-        margin-left: -10%;
-    } 
-    #row-card .card-body #count2{
-        /* margin-left: -20px; */
-        margin-left: -13%;
-    } 
-    #row-card .card-body #count3{
-        /* margin-left: -85px; */
-        margin-left: -30%;
-    } 
-    #row-card .card-body #count4{
-        /* margin-left: -140px;  */
-        margin-left: -53%;
-    } 
 
     #row-card .card-body span{
         font-size: 30px;
-    } 
-    #row-card .card-body #span1{
-        top: 52%;
-        left: 50%;
-    } 
-    #row-card .card-body #span2{
-        top: 51%;
-        left: 54%;
-    } 
-    #row-card .card-body #span3{
-        top: 54%;
-        left: 50%;
-    }
-    #row-card .card-body #span4{
-        top: 54%;
-        left: 33%;
     } 
 
     /* Kunci Sukses */

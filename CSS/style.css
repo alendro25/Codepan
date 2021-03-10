@@ -618,22 +618,6 @@ nav li img {
     color: #2926A9;
     position: relative;
 }
-#row-card .card-body #count1{
-    /* margin-left: -20px; */
-    margin-left: -26%;
-} 
-#row-card .card-body #count2{
-    /* margin-left: -20px; */
-    margin-left: -15%;
-} 
-#row-card .card-body #count3{
-    /* margin-left: -85px; */
-    margin-left: -35%;
-} 
-#row-card .card-body #count4{
-    /* margin-left: -140px;  */
-    margin-left: -65%;
-} 
 
 #row-card .card-body span{
     text-align: center;
@@ -641,26 +625,10 @@ nav li img {
     font-weight: bold;
     color: #A4A3C0;
 } 
-#row-card .card-body #span1{
-    position:absolute; 
-    top:56%;
-    left: 48%;
-} 
-#row-card .card-body #span2{
-    position:absolute; 
-    top:56%;
-    left: 59%;
-} 
-#row-card .card-body #span3{
-    position:absolute; 
-    top:56%;
-    left: 50%;
+
+#hadirDenganSolusi #row-card .pembungkus-counter{
+    gap: 5px;
 }
-#row-card .card-body #span4{
-    position:absolute; 
-    top:55%;
-    left: 30%;
-} 
 
 .p-bottom{
     text-align: center;
