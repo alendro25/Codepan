@@ -210,11 +210,9 @@
     /* Hadir dengan Solusi */
     #row-card .card{
         height: 330px;
-        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 80px;
     }
 
     #row-card .card-body h5{
@@ -374,7 +372,15 @@
 }
 
 @media only screen and (max-width: 812px){
-    /* Hadir Dengan Solusi */
+     /* Hadir Dengan Solusi */
+    #row-card .card{
+        height: 330px;
+         width: 80%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+    }
     #row-card .card-body span{
         font-size: 30px;
     }
