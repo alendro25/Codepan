@@ -1,19 +1,19 @@
 /* --  Global CSS -- */
-html{
+html {
     /* overflow-x: hidden; */
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F7F7FF;
     /* overflow-x: hidden; */
 }
 
-p{
+p {
     margin: 0;
 }
 
-.tombol{
+.tombol {
     display: block;
     text-decoration: none;
     color: white;
@@ -24,24 +24,26 @@ p{
     padding-top: 8px;
     border-radius: 41.5px;
     text-align: center;
-    font-size: 17px;  
+    font-size: 17px;
 }
 
-.tag-kecil{
+.tag-kecil {
     text-align: center;
     font-weight: 700;
     font-size: 16px;
     color: #03D0B9;
 }
-.tag-besar{
+
+.tag-besar {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
     color: #2926A9;
-    font-family:'Gotham', sans-serif;
+    font-family: 'Gotham', sans-serif;
     letter-spacing: 0px;
 }
-.capt{
+
+.capt {
     text-align: center;
     font-weight: 500;
     color: #7F7F7F;
@@ -49,90 +51,96 @@ p{
 
 
 /* --  Header Costum CSS -- */
-header{
+header {
     background-color: #2926A9;
     color: #fff;
     padding: 15px 0px;
 }
 
-header .contact{
+header .contact {
     display: flex;
     flex-wrap: wrap;
-    align-items:center;
+    align-items: center;
 }
 
-header .telepon, header .email{
+header .telepon,
+header .email {
     padding: 0 .5rem;
     display: flex;
     align-items: center;
 }
 
-header .telepon{
-    margin-right: 15px;;
+header .telepon {
+    margin-right: 15px;
+    ;
 }
 
-header img{
+header img {
     float: left;
     width: 35px;
 }
 
-header .contact img{
+header .contact img {
     margin-right: 10px;
 }
 
-header .contact .text{
+header .contact .text {
     float: left;
 }
 
-header .contact .text .judul{
+header .contact .text .judul {
     font-size: .8rem;
     font-weight: 500;
 }
 
-header .contact .text .isi{
+header .contact .text .isi {
     font-size: 1rem;
     font-weight: 600;
 }
-header .contact .text a{
+
+header .contact .text a {
     color: #fff;
     text-decoration: none;
 }
-header .contact .text a:hover{
+
+header .contact .text a:hover {
     color: rgb(230, 230, 230);
 }
 
 
-header ul{
+header ul {
     list-style: none;
     margin: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-header li a{
+
+header li a {
     margin-right: 20px;
     display: flex;
     flex-direction: column;
     color: #fff;
     text-decoration: none;
 }
-header li a:hover{
+
+header li a:hover {
     color: rgb(223, 223, 223);
     text-decoration: none;
 }
 
-header li{
+header li {
     margin-right: 20px;
     display: flex;
     flex-direction: column;
 }
 
-header ul li img{
+header ul li img {
     color: #fff;
     align-self: center;
 }
 
-header li p{
+header li p {
     margin-top: 3px;
     text-align: center;
     font-size: .6rem;
@@ -161,10 +169,12 @@ nav {
     height: auto;
 }
 
+/* Warna Teks Menu Pada Navbar */
 .navbar-light .navbar-nav .nav-link {
     color: #101010;
 }
 
+/* Warna Teks Menu Ketika Active Pada Navbar */
 .navbar-light .navbar-nav .active>.nav-link {
     color: #2926A9;
 }
@@ -187,6 +197,7 @@ nav img {
     width: auto;
 }
 
+/* Ketka Menu Layanan IT di Hover Memunculkan SubMenu */
 .dropdown:hover>.mega-area {
     display: block;
     transition: .3s;
@@ -260,8 +271,8 @@ nav li img {
 
 
 /* JumboTron */
-.jumbotron{
-    
+.jumbotron {
+
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -271,7 +282,7 @@ nav li img {
 }
 
 
-.jumbotron .container{
+.jumbotron .container {
     z-index: 1;
     position: relative;
 }
@@ -286,31 +297,37 @@ nav li img {
     bottom: 0;
 } */
 
-.jumbotron .display-4{
+/* Teks pada Jumbotron */
+.jumbotron .display-4 {
     color: white;
     margin-top: 80px;
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     font-size: 50px;
     margin-bottom: 30px;
-    font-family:'Gotham', sans-serif;
+    font-family: 'Gotham', sans-serif;
     letter-spacing: 1.1px;
 }
-.jumbotron center{
+
+/* Teks Caption Pada Jumbotron */
+.jumbotron center {
     font-weight: 500;
     font-size: 16px;
-    color: white ;
+    color: white;
 }
 
-.jumbotron a{
+.jumbotron a {
     height: 50px;
     margin: 50px auto;
     padding: 10px;
     overflow: hidden;
 }
-.jumbotron .hvr-bounce-to-top::before{
-   background-color: #2926A9;
+
+/* Warna Ketika Tombol Pada Jumbotron di Hover */
+.jumbotron .hvr-bounce-to-top::before {
+    background-color: #2926A9;
 }
+
 /* Akhir JumboTron */
 
 .atas {
@@ -321,18 +338,20 @@ nav li img {
 }
 
 /* Tentang1 */
-#tentang1 h2{
+#tentang1 h2 {
     font-size: 36px;
     color: #2926A9;
-    font-family:'Gotham', sans-serif;
+    font-family: 'Gotham', sans-serif;
     letter-spacing: 0px;
 }
-#tentang1 p{
+
+#tentang1 p {
     margin-top: 15px;
     text-align: justify;
     font-size: 17px;
 }
-#tentang1 .dwnld-btn{
+
+#tentang1 .dwnld-btn {
     display: block;
     text-decoration: none;
     color: white;
@@ -346,55 +365,64 @@ nav li img {
     font-size: 17px;
     overflow: hidden;
 }
-#tentang1 .dwnld-btn:hover{
-   text-decoration: none;
-   color: white;
+
+#tentang1 .dwnld-btn:hover {
+    text-decoration: none;
+    color: white;
 }
-#tentang1 .hvr-bounce-to-top::before{
-   background-color: #2926A9;
- }
-#tentang1 .row{
+
+#tentang1 .hvr-bounce-to-top::before {
+    background-color: #2926A9;
+}
+
+#tentang1 .row {
     padding-top: 100px;
 }
 
 /* Akhir Tentang1 */
 
 /* Awal Tentang2 */
-#tentang2 img{
+#tentang2 img {
     width: 40px;
     height: 40px;
     margin-bottom: 30px;
 }
-#tentang2 .card-title{
+
+#tentang2 .card-title {
     font-size: 16px;
     color: #2926A9;
     font-weight: bold;
 }
-#tentang2 .card{
+
+#tentang2 .card {
     margin: 50px 0;
     box-shadow: 2px 2px 20px rgba(100, 78, 78, 0.616);
     height: 373px;
 }
-#tentang2 .card-body{
+
+#tentang2 .card-body {
     padding: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-#tentang2 .card:hover img{
+
+/* Animasi Ketika Card di Hover Akan Menggerakan Gambar */
+#tentang2 .card:hover img {
     -webkit-animation-name: hvr-buzz;
-  animation-name: hvr-buzz;
-  -webkit-animation-duration: 0.15s;
-  animation-duration: 0.15s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
+
 /* Akhir Tentang2 */
 
 /* Awal Tentang3 */
-#tentang3{
+#tentang3 {
     margin-left: 15px;
     margin-right: 15px;
     padding-top: 80px;
@@ -402,93 +430,107 @@ nav li img {
     background-color: #2926a9;
     height: 524px;
     width: auto;
-    
 }
-#tentang3 .container{
-   margin-top: 40px;
+
+#tentang3 .container {
+    margin-top: 40px;
 }
-#tentang3 .animasi-headline{
+
+#tentang3 .animasi-headline {
     overflow: hidden;
     display: flex;
     justify-content: center;
 }
-#tentang3 h3{
+
+#tentang3 h3 {
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     color: white;
 }
-#tentang3 h1{
+
+#tentang3 h1 {
     font-weight: 800;
     font-size: 60px;
     line-height: 73px;
     color: white;
-    font-family:'Gotham', sans-serif;
+    font-family: 'Gotham', sans-serif;
     letter-spacing: 0px;
 }
-#tentang3 p{
+
+#tentang3 p {
     font-weight: 100;
     font-size: 21px;
     line-height: 26px;
     color: white;
 }
 
-#tentang3 a img{
+#tentang3 a img {
     width: 60px;
     height: 60px;
     margin: 40px 0;
 }
-#tentang3 a img:hover{
+
+#tentang3 a img:hover {
     text-decoration: none;
     border-radius: 50%;
     box-shadow: 2px 2px 20px rgba(100, 78, 78, 0.616);
 }
 
-#tentang3 .modal .modal-content{
+#tentang3 .modal .modal-content {
     width: 600px;
 }
+
 /* Akhir Tentang3 */
 
 /* Tentang4 */
-#tentang4{
+#tentang4 {
     overflow-x: hidden;
 }
-#tentang4 .gagasan{
-    text-align: center; 
-    margin-top: 70px;   
+
+#tentang4 .gagasan {
+    text-align: center;
+    margin-top: 70px;
 }
-#tentang4 .blog-kami{
+
+#tentang4 .blog-kami {
     color: #03D0B9;
     margin-bottom: -5px;
 }
-.gagasan h1{
+
+.gagasan h1 {
     font-size: 26px;
     font-weight: bold;
     color: #2926A9;
     margin-bottom: 30px;
-    font-family:'Gotham', sans-serif;
+    font-family: 'Gotham', sans-serif;
     letter-spacing: 0px;
 }
-.gagasan .subtitle{
+
+.gagasan .subtitle {
     margin-bottom: 80px;
     font-size: 15px;
 }
-.subtitle-bawah{
+
+.subtitle-bawah {
     text-align: center;
     margin: 40px 0;
     font-size: 12px;
 }
-.subtitle-bawah{
+
+.subtitle-bawah {
     text-align: center;
     margin: 40px 0;
     font-size: 12px;
 }
-.subtitle-bawah a{
+
+.subtitle-bawah a {
     font-weight: bold;
     color: #2926A9;
     text-decoration: none;
 }
-#tentang4 .card{
+
+#tentang4 .card {
     height: 430px;
     width: auto;
     margin-bottom: 40px;
@@ -496,78 +538,84 @@ nav li img {
     border: none;
     box-shadow: 2px 2px 20px rgba(100, 78, 78, 0.616);
 }
-#tentang4 .card .card-body{
+
+#tentang4 .card .card-body {
     padding: 50px 20px;
 }
-#tentang4 .card .card-date{
+
+#tentang4 .card .card-date {
     color: #2926A9;
     font-size: 10px;
     font-weight: 600;
 }
-#tentang4 .card .card-title{
+
+#tentang4 .card .card-title {
     color: #2926A9;
     font-size: 18px;
     font-weight: 600;
 }
-#tentang4 .card .card-text{
+
+#tentang4 .card .card-text {
     color: #4540FF;
     font-size: 14px;
     font-weight: 500;
 }
-#tentang4 .subtitle-bawah .hvr-underline-from-left::before{
+
+#tentang4 .subtitle-bawah .hvr-underline-from-left::before {
     background-color: #2926A9;
     height: 1px;
-} 
+}
 
 /* Akhir Tentang4 */
 
 
 
 /* Hadir Dengan Solusi */
-#hadirDenganSolusi{
+#hadirDenganSolusi {
     margin-top: -30px;
     padding-top: 30px;
     /* height: 1700px; */
     background-color: #F2F2F2;
     overflow-x: hidden;
 }
-/* 
-#bullets{
-    padding-left: 300px;
-} */
 
-#bullets ul{
+#bullets ul {
     display: flex;
     list-style: none;
 }
-#bullets .bullets{
+
+#bullets .bullets {
     display: flex;
     flex-direction: column;
 }
-#bullets li img{
+
+#bullets li img {
     width: 20px;
     height: 20px;
     margin-right: 15px;
     margin-top: 10px;
 }
+
 #bullets .bullets h4 {
     color: #2926A9;
     font-size: 18px;
     font-weight: 600;
 }
+
 #bullets .bullets p {
     font-size: 14px;
     font-weight: 500;
 }
 
-#judulSI h1{
+#judulSI h1 {
     font-size: 36px;
     color: #2926A9;
     font-weight: 700;
-    font-family:'Gotham', sans-serif;
+    font-family: 'Gotham', sans-serif;
     letter-spacing: 0px;
 }
-#judulSI a{
+
+#judulSI a {
     text-decoration: none;
     font-weight: 600;
     color: #2926A9;
@@ -576,42 +624,47 @@ nav li img {
     padding: 10px;
     margin-top: 10px;
 }
-#judulSI a:hover{
+
+#judulSI a:hover {
     text-decoration: none;
     color: white;
 }
-#judulISI .fa-long-arrow-alt-right{
+
+#judulISI .fa-long-arrow-alt-right {
     color: #2926A9;
 }
-#judulSI .fa-long-arrow-alt-right:hover{
+
+#judulSI .fa-long-arrow-alt-right:hover {
     color: white;
 }
-#judulSI p .hvr-bounce-to-top::before{
-  background-color: #2926A9;
-  width: 57%;
+
+#judulSI p .hvr-bounce-to-top::before {
+    background-color: #2926A9;
+    width: 57%;
 }
 
 
-#row-card .card{
+#row-card .card {
     margin: 50px 0;
     box-shadow: 2px 2px 20px #A6A5A5;
     border-top: 16px solid #33BEF0;
     height: 300px;
 }
-#row-card .card img{
+
+#row-card .card img {
     width: 62px;
     height: 60px;
     margin: 40px auto;
 }
 
-#row-card .card-body h5{
+#row-card .card-body h5 {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
     color: #2926A9;
-} 
+}
 
-#row-card .card-body p{
+#row-card .card-body p {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
@@ -619,33 +672,36 @@ nav li img {
     position: relative;
 }
 
-#row-card .card-body span{
+#row-card .card-body span {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
     color: #A4A3C0;
-} 
+}
 
 #hadirDenganSolusi #row-card .pembungkus-counter{
     gap: 5px;
 }
 
-.p-bottom{
+
+.p-bottom {
     text-align: center;
     margin: 10px 0;
 }
-.p-bottom a{
+
+.p-bottom a {
     color: #2926A9;
     font-weight: bold;
     text-decoration: none;
 }
-.p-bottom .hvr-underline-from-left::before{
+
+.p-bottom .hvr-underline-from-left::before {
     height: 1px;
     background-color: #2926A9;
 }
 
 /* Kunci Sukses */
-#kunci-sukses{
+#kunci-sukses {
     width: auto;
     height: auto;
     background-color: #fff;
@@ -653,19 +709,21 @@ nav li img {
     padding: 50px;
     box-shadow: 2px 2px 20px #A6A5A5;
 }
-#kunci-sukses .capt{
-   margin-bottom: 50px;
+
+#kunci-sukses .capt {
+    margin-bottom: 50px;
 }
 
 
-#kunci-sukses .figure-caption h1{
+#kunci-sukses .figure-caption h1 {
     font-weight: 700;
     font-size: 21px;
     color: #2926A9;
     text-align: center;
     margin-top: 50px;
 }
-#kunci-sukses .figure-caption p{
+
+#kunci-sukses .figure-caption p {
     font-weight: 500;
     font-size: 15px;
     text-align: center;
@@ -673,33 +731,35 @@ nav li img {
 }
 
 /* PORTOFOLIO */
-#portofolio{
+#portofolio {
     height: auto;
     background-color: white;
-    padding: 60px 0;
+    padding: 60px 10px;
     box-shadow: 2px 2px 20px #A6A5A5;
     overflow-x: hidden;
 }
 
-#portofolio .tag-kecil{
+#portofolio .tag-kecil {
     text-align: center;
     font-weight: 700;
     font-size: 16px;
     color: #03D0B9;
 }
-#portofolio .tag-besar{
+
+#portofolio .tag-besar {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
     color: #2926A9;
 }
-#portofolio .capt{
+
+#portofolio .capt {
     text-align: center;
     font-weight: 500;
     color: #7F7F7F;
 }
 
-#portofolio .card-portofolio{
+#portofolio .card-portofolio {
     margin: 50px 0;
     box-shadow: 2px 2px 20px #A6A5A5;
     display: flex;
@@ -707,32 +767,32 @@ nav li img {
     padding: 20px;
 }
 
-#portofolio .card-portofolio .card-img{
+#portofolio .card-portofolio .card-img {
     overflow: hidden;
     height: initial;
     border-radius: 10px;
 }
 
-#portofolio .card-portofolio small{
+#portofolio .card-portofolio small {
     font-size: 10px;
     font-weight: 600;
     color: #33BEF0;
 }
 
-#portofolio .card-portofolio h5{
+#portofolio .card-portofolio h5 {
     font-size: 16px;
     font-weight: 600;
     color: #2926A9;
 }
 
-#portofolio .card-portofolio p{
+#portofolio .card-portofolio p {
     font-weight: 500;
     text-align: justify;
     font-size: 14px;
     color: #4540FF;
 }
 
-#portofolio .card-portofolio .tombol{
+#portofolio .card-portofolio .tombol {
     margin: 30px 0 0 0;
     margin-left: 10px;
     padding-top: 5px;
@@ -742,10 +802,12 @@ nav li img {
     width: 250px;
     overflow: hidden;
 }
-#portofolio .card-portofolio .hvr-bounce-to-top::before{
+
+#portofolio .card-portofolio .hvr-bounce-to-top::before {
     background-color: #2926A9;
 }
-#portofolio .card-portofolio:hover .card-img-top{
+
+#portofolio .card-portofolio:hover .card-img-top {
     transform: scale(1.2);
 }
 
@@ -758,103 +820,116 @@ nav li img {
     overflow-x: hidden;
 }
 
-#produk .pembungkus-produk{
+#produk .pembungkus-produk {
     background-color: white;
     padding: 50px;
 }
 
-#produk .pembungkus-produk .col-produk{
+#produk .pembungkus-produk .col-produk {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
 }
-#produk .pembungkus-produk .row{
-   margin-bottom: 10px;
+
+#produk .pembungkus-produk .row {
+    margin-bottom: 10px;
 }
-#produk .card-produk img{
+
+#produk .card-produk img {
     width: auto;
     height: 300px;
 }
-#produk .card-produk .card-body .tombol{
+
+#produk .card-produk .card-body .tombol {
     width: auto;
     height: 40px;
     padding-top: 5px;
     overflow: hidden;
 }
-#produk .card-produk .card-body .hvr-bounce-to-top::before{
+
+#produk .card-produk .card-body .hvr-bounce-to-top::before {
     background-color: #2926A9;
 }
-#produk .card-produk h5{
+
+#produk .card-produk h5 {
     font-size: 16px;
     font-weight: 600;
     color: #2926A9;
 }
-#produk .pembungkus-produk .capt{
+
+#produk .pembungkus-produk .capt {
     margin-bottom: 80px;
 }
-#produk .card-produk .card-text{
+
+#produk .card-produk .card-text {
     font-size: 15px;
     margin-bottom: 10px;
 }
 
 
 /* Mitra Kerja */
-#mitraKerja{
+#mitraKerja {
     background-color: #F2F2F2;
     padding: 50px;
     overflow-x: hidden;
 }
 
-#mitraKerja .row-biru{
+#mitraKerja .row-biru {
     background-color: #2926A9;
     height: 500px;
 }
-#mitraKerja .tag-kecil{
+
+#mitraKerja .tag-kecil {
     padding-top: 60px;
 }
-#mitraKerja .tag-besar{
+
+#mitraKerja .tag-besar {
     margin-top: 10px;
     color: white;
 }
-#mitraKerja .row-biru img{
-    margin: 50px 0;
-} 
 
-#mitraKerja .row-putih{
+#mitraKerja .row-biru img {
+    margin: 50px 0;
+}
+
+#mitraKerja .row-putih {
     background-color: white;
     height: 350px;
     padding: 0 50px;
 }
 
-#mitraKerja .row-putih img{
+#mitraKerja .row-putih img {
     margin-top: 60px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 
-#mitraKerja .row-putih ul{
+#mitraKerja .row-putih ul {
     margin-top: 60px;
     padding: 10px 30px;
     list-style: none;
     display: flex;
 }
-#mitraKerja .row-putih ul li{
+
+#mitraKerja .row-putih ul li {
     margin: 0 30px;
 }
 
-#mitraKerja .row-putih h2{
+#mitraKerja .row-putih h2 {
     font-weight: 600;
     font-size: 16px;
     color: #2926A9;
 }
-#mitraKerja .row-putih small{
+
+#mitraKerja .row-putih small {
     font-weight: 500;
     font-size: 12px;
     color: #706E6E;
     text-align: left;
 }
-#mitraKerja .row-putih  p{
+
+#mitraKerja .row-putih p {
     margin-top: 60px;
     font-weight: 500;
     font-size: 18px;
@@ -865,118 +940,124 @@ nav li img {
 
 
 /* ---- Solusi ----*/
-.solusi{
+.solusi {
     background-color: #F2F2F2;
     padding-bottom: 80px;
     overflow-x: hidden;
 }
 
-.container-mitra{
+.container-mitra {
     position: relative;
 }
 
 
-.solusi .keterangan{
+.solusi .keterangan {
     padding: 50px 40px;
     background-color: #302CC9;
 }
 
-.solusi .keterangan ul{
+.solusi .keterangan ul {
     padding: 0;
 }
 
-.solusi .keterangan p{
+.solusi .keterangan p {
     color: #00CAE6;
 }
 
-.solusi .keterangan .sub-judul{
+.solusi .keterangan .sub-judul {
     font-weight: 700;
     font-size: .9rem;
     margin-bottom: 10px;
 }
 
-.solusi .text-under-judul{
+.solusi .text-under-judul {
     font-size: .95rem;
     margin-bottom: 35px;
 }
 
-.solusi .keterangan h2{
+.solusi .keterangan h2 {
     font-weight: 700;
     color: #fff;
     font-size: 1.84rem;
-    margin-bottom: 13px;    
+    margin-bottom: 13px;
 }
 
-.solusi .form{
+.solusi .form {
     background-color: #fff;
 }
 
-.solusi .keterangan .items{
+.solusi .keterangan .items {
     padding: 0 30px;
     list-style: none;
 }
 
-.solusi .items .item{
+.solusi .items .item {
     margin-bottom: 30px;
     display: flex;
 }
 
-.solusi .keterangan .items .text-img{
+.solusi .keterangan .items .text-img {
     width: 50px;
+    height: 50px;
     margin-right: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.solusi .keterangan .item img{
+.solusi .keterangan .item img {
     width: inherit;
+    /* width: 100%; */
 }
 
-.solusi .keterangan .items h3{
+.solusi .keterangan .items h3 {
     margin-bottom: 2px;
     color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
 }
 
-.solusi .keterangan .items p{
+.solusi .keterangan .items p {
     font-size: .9rem;
 }
 
 /* ---- CSS Container Form --- */
-.solusi .container-form{
-    padding: 50px  30px 10px 30px;
+.solusi .container-form {
+    padding: 50px 30px 10px 30px;
 }
 
 .solusi .container-form input,
-.solusi .container-form select{
+.solusi .container-form select {
     font-size: .9rem;
     color: #7F7F7F;
 }
 
 /* --- Costum Radio Button --- */
-.solusi .container-form h5{
+.solusi .container-form h5 {
     font-size: 1rem;
     font-weight: 500;
     color: #7F7F7F;
     margin: 30px 0;
 }
 
-.solusi .container-form .margin-text{
+.solusi .container-form .margin-text {
     margin-bottom: 30px;
 }
 
-.solusi .container-form .margin-select{
+.solusi .container-form .margin-select {
     margin: 20px 0;
 }
 
-.solusi .container-form .margin-end{
+.solusi .container-form .margin-end {
     margin: 5px 0 50px 0;
 }
 
-.solusi .costum-radio input{
+.solusi .costum-radio input {
     display: none;
 }
 
-.solusi .container-form .radio-btn{
+.solusi .container-form .radio-btn {
     text-align: left;
     width: 100%;
     padding: 22px 5px 22px 15px;
@@ -990,8 +1071,8 @@ nav li img {
     background-color: #E5E5FC;
 }
 
-.solusi .container-form .radio-btn > i,
-.solusi .box-setuju .checkbox-btn > i{
+.solusi .container-form .radio-btn>i,
+.solusi .box-setuju .checkbox-btn>i {
     height: 25px;
     width: 25px;
     color: #fff;
@@ -1006,51 +1087,52 @@ nav li img {
     opacity: 0;
 }
 
-.solusi .container-form .jumlah{
-    display: flex;   
+.solusi .container-form .jumlah {
+    display: flex;
 }
 
-.solusi .container-form .jumlah h3{
+.solusi .container-form .jumlah h3 {
     font-size: 1.1rem;
     font-weight: 600;
     color: #2926A9;
     margin: 0;
 }
 
-.solusi .costum-radio input:checked+.radio-btn{
+.solusi .costum-radio input:checked+.radio-btn {
     border: 2px solid #2926A9;
     background-color: #fff;
 }
 
-.solusi .costum-radio input:checked+.radio-btn > i,
-.solusi .box-setuju input[type="checkbox"]:checked+.checkbox-btn > i{
+.solusi .costum-radio input:checked+.radio-btn>i,
+.solusi .box-setuju input[type="checkbox"]:checked+.checkbox-btn>i {
     opacity: 1;
     transform: translateX(-50%) scale(1);
 }
+
 /* --- End of Costum Radio Button --- */
 
 /* --- Costum Check Box --- */
 
-.solusi .container-form .box-setuju input{
+.solusi .container-form .box-setuju input {
     display: none;
 }
 
-.solusi .container-form .box-setuju{
+.solusi .container-form .box-setuju {
     display: flex;
     align-items: center;
 }
 
-.solusi .container-form .box-setuju label{
+.solusi .container-form .box-setuju label {
     margin: 0;
     line-height: 1.15;
     font-weight: 500;
 }
 
-.solusi .container-form .box-setuju .checkbox-btn{
+.solusi .container-form .box-setuju .checkbox-btn {
     margin-left: 10px;
 }
 
-.solusi .box-setuju .checkbox-btn{
+.solusi .box-setuju .checkbox-btn {
     border: 2px solid #2926A9;
     position: relative;
     width: 22px;
@@ -1058,7 +1140,7 @@ nav li img {
     margin-right: 10px;
 }
 
-.solusi .box-setuju .checkbox-btn i{
+.solusi .box-setuju .checkbox-btn i {
     margin: 0;
     top: -3px;
     left: 9px;
@@ -1066,35 +1148,35 @@ nav li img {
 }
 
 /*--- End of Custom Check Box ---*/
-.solusi .container-form input[type="text"], 
+.solusi .container-form input[type="text"],
 .solusi .container-form input[type="email"],
 .solusi .container-form input[type="tel"],
-.solusi .container-form select{
+.solusi .container-form select {
     border: none;
     border-radius: 0;
     border-bottom: 1px solid #7F7F7F;
 }
 
-.solusi .container-form input[type="text"], 
+.solusi .container-form input[type="text"],
 .solusi .container-form input[type="email"],
-.solusi .container-form input[type="tel"]{
+.solusi .container-form input[type="tel"] {
     padding-left: 5px;
 }
 
-.solusi .container-form select{
+.solusi .container-form select {
     padding-left: 0;
 }
 
-.solusi .container-form input[type="text"]:focus, 
+.solusi .container-form input[type="text"]:focus,
 .solusi .container-form input[type="email"]:focus,
 .solusi .container-form input[type="tel"]:focus,
-.solusi .container-form select:focus{
+.solusi .container-form select:focus {
     border-color: inherit;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.solusi .container-form .btn-submit{
+.solusi .container-form .btn-submit {
     display: inline-block;
     text-align: center;
     width: 80%;
@@ -1110,18 +1192,18 @@ nav li img {
     overflow: hidden;
 }
 
-.solusi .container-form .btn-submit:hover{
+.solusi .container-form .btn-submit:hover {
     text-decoration: none;
     color: #2926A9;
 }
 
-.solusi .container-testi .pelanggan{
+.solusi .container-testi .pelanggan {
     display: flex;
     justify-content: space-between;
     color: #fff;
 }
 
-.solusi .container-testi .img-testi{
+.solusi .container-testi .img-testi {
     width: 80px;
     height: 80px;
     position: relative;
@@ -1130,28 +1212,28 @@ nav li img {
     margin-bottom: 10px;
 }
 
-.solusi .container-testi .img-testi img{
+.solusi .container-testi .img-testi img {
     width: inherit;
 }
 
-.solusi .container-testi{
+.solusi .container-testi {
     position: relative;
     top: -70px;
 }
 
-.solusi .container-testi p{
+.solusi .container-testi p {
     color: #CFCECE;
     font-weight: 500;
     font-size: .98rem;
     padding-left: 0;
 }
 
-.solusi .container-testi .pelanggan h5{
+.solusi .container-testi .pelanggan h5 {
     font-size: 1rem;
     margin-bottom: 3px;
 }
 
-.solusi .container-testi .pelanggan .posisi{
+.solusi .container-testi .pelanggan .posisi {
     font-size: .75rem;
     color: #919090;
     font-weight: 500;
@@ -1162,7 +1244,7 @@ nav li img {
 
 
 /* Aturan Layanan */
-#aturan-layanan{
+#aturan-layanan {
     background-image: url(/img/head-aturan-layanan.png);
     background-size: cover;
     background-position: center;
@@ -1172,12 +1254,12 @@ nav li img {
     text-align: center;
 }
 
-#aturan-layanan .container{
+#aturan-layanan .container {
     z-index: 1;
-    position: relative; 
+    position: relative;
 }
 
-#aturan-layanan::after{
+#aturan-layanan::after {
     content: '';
     display: block;
     width: 100%;
@@ -1187,100 +1269,107 @@ nav li img {
     bottom: 0;
 }
 
-#aturan-layanan .hero h1{
+#aturan-layanan .hero h1 {
     font-size: 48px;
     font-weight: 700;
     color: #2926A9;
-    padding-top: 50px; 
-    padding-bottom: 50px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
-    font-family:'Gotham', sans-serif;
+    font-family: 'Gotham', sans-serif;
     letter-spacing: 1.1px;
 }
 
 
 
 /* Isi aturan Layanan */
-#isi-aturanLayanan{
+#isi-aturanLayanan {
     background-color: white;
     height: 1000px;
     padding-top: 30px;
     overflow-x: hidden;
 }
-#isi-aturanLayanan ul{
+
+#isi-aturanLayanan ul {
     margin-top: -40px;
 }
-#isi-aturanLayanan .nav li{
+
+#isi-aturanLayanan .nav li {
     background-color: transparent;
     border: none;
 }
-#isi-aturanLayanan .nav li.active{
+
+#isi-aturanLayanan .nav li.active {
     background-color: transparent;
     border: none;
     color: #34B3F1;
 }
 
-#isi-aturanLayanan .nav li a{
+#isi-aturanLayanan .nav li a {
     font-size: 18px;
     color: #2926A9;
     text-decoration: none;
 }
-#isi-aturanLayanan .nav li a:hover{
+
+#isi-aturanLayanan .nav li a:hover {
     font-size: 18px;
     color: #34B3F1;
 }
 
-#isi-aturanLayanan .tombol{
+#isi-aturanLayanan .tombol {
     height: 48px;
     width: 309px;
     padding: 10px 0;
     border-radius: 7px;
     overflow: hidden;
 }
-#isi-aturanLayanan .hvr-bounce-to-top::before{
+
+#isi-aturanLayanan .hvr-bounce-to-top::before {
     background-color: #2926A9;
     color: white;
 }
 
-#isi-aturanLayanan hr{
+#isi-aturanLayanan hr {
     background: #2926A9;
     height: 2px;
 }
 
-#isi-aturanLayanan .row-isi-pasal{
+#isi-aturanLayanan .row-isi-pasal {
     margin-top: 50px;
 }
 
-#isi-aturanLayanan .row-isi-pasal .tab-pane{
+#isi-aturanLayanan .row-isi-pasal .tab-pane {
     overflow: auto;
     text-align: justify;
     height: 700px;
 }
+
 /* Tabs untuk Versi Dekstop */
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #pasal,
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal,
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #ayat-pasal,
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #judul-ayat,
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-ayat{
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-ayat {
     color: #2926A9;
 }
 
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #pasal,
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal{
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal {
     font-weight: bold;
     font-size: 40px;
 }
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal{
+
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal {
     margin-bottom: 70px;
 }
 
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #ayat-pasal,
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #judul-ayat{
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #judul-ayat {
     font-weight: bold;
 }
 
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane ul{
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane ul {
     color: #2926A9;
     list-style-type: decimal;
     margin-left: 30px;
@@ -1290,37 +1379,40 @@ nav li img {
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal,
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #ayat-pasal,
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #judul-ayat,
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-ayat{
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-ayat {
     color: #2926A9;
 }
 
 .view-desktop-aturanLayanan .row-isi-pasal .tab-pane #pasal,
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal{
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal {
     font-weight: bold;
     font-size: 40px;
 }
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal{
+
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-pasal {
     margin-bottom: 70px;
 }
-.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-ayat{
+
+.view-desktop-aturanLayanan .row-isi-pasal .tab-pane #isi-ayat {
     margin: 30px;
     padding: 10px;
 }
+
 /* Akhir Tabs untuk Versi Dekstop */
 
 
-.view-mobile-aturanLayanan{
+.view-mobile-aturanLayanan {
     display: none;
 }
 
 /* Accardion Untuk Versi Mobile */
-  #isi-aturanLayanan .wrapper{
+#isi-aturanLayanan .wrapper {
     width: auto;
     margin: 80px auto 0;
-  }
+}
 
-  /* Text PASAL */
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header{
+/* Text PASAL */
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header {
     width: 100%;
     height: 50px;
     background: #fff;
@@ -1330,25 +1422,25 @@ nav li img {
     border-bottom: 2px solid #2926A9;
     position: relative;
     cursor: pointer;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap:first-child .accordion_header{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap:first-child .accordion_header {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap:last-child .accordion_header{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap:last-child .accordion_header {
     border-bottom: 2px solid transparent;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap:last-child .accordion_header:hover{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap:last-child .accordion_header:hover {
     border-bottom: 2px solid transparent;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:before,
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:after{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:before,
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:after {
     content: "";
     position: absolute;
     top: 50%;
@@ -1357,129 +1449,137 @@ nav li img {
     width: 20px;
     height: 2px;
     background: #2926A9;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:hover{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:hover {
     color: #34B3F1;
     border-color: #34B3F1;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:hover:before,
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:hover:after{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:hover:before,
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:hover:after {
     background: #2926A9;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:after{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header:after {
     transform: rotate(-90deg);
     transition: all 0.5s ease;
-  }
-  
-  /* Background body Accordion */
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_body{
+}
+
+/* Background body Accordion */
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_body {
     width: 100%;
     height: 0px;
     transition: all 0.5s ease;
     background: #34B3F1;
     overflow: auto;
     padding: 0 10px;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_body p{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_body p {
     padding: 15px;
     font-size: 15px;
     line-height: 22px;
     color: #fff;
     text-align: justify;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active{
-    color: #34B3F1; 
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active {
+    color: #34B3F1;
     border-color: #2926A9;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap:last-child .accordion_header.active{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap:last-child .accordion_header.active {
     border-bottom: 2px solid #2926A9;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-  }
-  
-  /* Collapsed Logo(-) */
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active:before,
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active:after{
+}
+
+/* Collapsed Logo(-) */
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active:before,
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active:after {
     background: #34B3F1;
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active:after{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active:after {
     transform: rotate(0deg);
-  }
-  
-  #isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active + .accordion_body{
+}
+
+#isi-aturanLayanan .wrapper .accordion_wrap .accordion_header.active+.accordion_body {
     height: 180px;
-  }
+}
 
 .view-mobile-aturanLayanan .wrapper .accordion_body #pasal,
-.view-mobile-aturanLayanan .wrapper .accordion_body #isi-pasal{
+.view-mobile-aturanLayanan .wrapper .accordion_body #isi-pasal {
     font-weight: bold;
-  }
+}
 
 .view-mobile-aturanLayanan .wrapper .accordion_body #pasal,
 .view-mobile-aturanLayanan .wrapper .accordion_body #isi-pasal,
 .view-mobile-aturanLayanan .wrapper .accordion_body #ayat-pasal,
 .view-mobile-aturanLayanan .wrapper .accordion_body #judul-ayat,
-.view-mobile-aturanLayanan .wrapper .accordion_body #isi-ayat{
+.view-mobile-aturanLayanan .wrapper .accordion_body #isi-ayat {
     color: #2926A9;
 }
 
 .view-mobile-aturanLayanan .wrapper .accordion_body #ayat-pasal,
-.view-mobile-aturanLayanan .wrapper .accordion_body #judul-ayat{
+.view-mobile-aturanLayanan .wrapper .accordion_body #judul-ayat {
     font-weight: bold;
 }
 
 
-.view-mobile-aturanLayanan .wrapper .accordion_body ul li{
+.view-mobile-aturanLayanan .wrapper .accordion_body ul li {
     color: white;
     margin-top: 50px;
     list-style-type: decimal;
 }
+
 /* Ahkir Accardion Untuk Versi Mobile */
 
 
 
 /* Tentang5 */
-#tentang5{
+#tentang5 {
     margin-top: -5px;
     background-color: #2926A9;
     overflow-x: hidden;
 }
-#tentang5 .container{
-     background-image: url(../img/Bitmap.png);
-     background-position: center;
-     background-repeat: no-repeat;
-     height: 700px;
+
+#tentang5 .container {
+    background-image: url(../img/Bitmap.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
 }
-#tentang5 .judul-tentang5{
-   margin-top: 200px;
-   text-align: center;
-   color: white;
-   font-size: 48px;
+
+#tentang5 .judul-tentang5 {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
 }
-#tentang5 .isi-tentang5 .tombol{
-   height: 72px;
-   font-size: 18px;
-   padding-top: 20px;
-   overflow: hidden;
+
+#tentang5 .isi-tentang5 .tombol {
+    height: 72px;
+    font-size: 18px;
+    padding-top: 20px;
+    overflow: hidden;
 }
-#tentang5 .isi-tentang5 .hvr-bounce-to-top::before{
-  background-color: #2926A9;
- }
-#tentang5 .isi-tentang5 p{
+
+#tentang5 .isi-tentang5 .hvr-bounce-to-top::before {
+    background-color: #2926A9;
+}
+
+#tentang5 .isi-tentang5 p {
     color: #7F7F7F;
     text-align: center;
     font-size: 21px;
 }
-#tentang5 .isi-tentang5 a{
+
+#tentang5 .isi-tentang5 a {
     margin: 50px auto;
 }
+
 /* Akhir Tentang5 */
 
 
@@ -1488,44 +1588,51 @@ nav li img {
 
 
 /* Footer */
-#footer{
+#footer {
     margin-top: -50px;
     background-color: #2926A9;
     overflow-x: hidden;
 }
 
-.footer h6{
+.footer h6 {
     color: white;
     font-size: 21px;
     line-height: 26px;
 }
+
 .footer ul li a,
-.footer p a{
+.footer p a {
     color: #A6A5A5;
     text-decoration: none;
 }
+
 .footer ul li a:hover,
-.footer p a:hover{
+.footer p a:hover {
     color: white;
     text-decoration: none;
 }
-.footer .hvr-underline-from-left::before{
+
+.footer .hvr-underline-from-left::before {
     height: 1px;
 }
 
 
-.footer-copyright{
+.footer-copyright {
     background-color: #2926A9;
 }
-.footer-copyright .container p{
+
+.footer-copyright .container p {
     color: aqua;
     text-align: left;
 }
-.footer-copyright p{
+
+.footer-copyright p {
     color: aqua;
 }
-.footer-copyright a:hover{
+
+.footer-copyright a:hover {
     color: white;
     text-decoration: none;
 }
+
 /* Akhir Footer */
