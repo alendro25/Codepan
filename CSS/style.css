@@ -189,12 +189,23 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin-right: 10px;
+    margin-left: 20px;
 }
 
 nav img {
     height: 30px;
     width: auto;
+}
+
+/* - Social Media Icon properties - */
+nav li .fab {
+    font-size: 30px;
+    color: #29669c;
+}
+  
+/* - Change icon color when social media button in hover - */
+nav li .fab:hover {
+    color: #2926a9;
 }
 
 /* Ketka Menu Layanan IT di Hover Memunculkan SubMenu */

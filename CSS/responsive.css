@@ -188,6 +188,47 @@
     nav .mega-area .dropdown-item a{
         margin-bottom: 5px;
     }
+
+    /* -- Social media Icon -- */
+    /* - Position Icon to Center, add with and height - */
+    nav .nav-sosmed a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+    }
+    /* - Color Icon to white - */
+    nav .nav-sosmed a .fab {
+        color: #fff;
+        font-size: 15px;
+    }
+    /* - Color Instagram Button - */
+    nav .nav-sosmed a.ig {
+    background: #833ab4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      #fcb045,
+      #fd1d1d,
+      #833ab4
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      #fcb045,
+      #fd1d1d,
+      #833ab4
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    /* - Color Facebook Button -  */
+    nav .nav-sosmed a.fb {
+        background: #4267b2;
+    }
+
+    /* - Color Linkind Button -  */
+    nav .nav-sosmed a.in {
+        background: #0e76a8;
+    }
+    /* --- End of Make Nav Bar Collapse from rigth side --- */
     
     /* Tentang1 */
     #tentang1 .dwnld-btn{
@@ -716,6 +757,9 @@
         position: relative;
         top: 0;
         left: 5%;
+    }
+    nav ul li {
+        margin: 0;
     }
     nav .navbar-collapse .nav-sosmed{
         margin: 10px 0 0 0 ;
