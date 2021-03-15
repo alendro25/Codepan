@@ -425,6 +425,9 @@
     #row-card .card-body span{
         font-size: 30px;
     }
+    #row-card .card .card-img-rowCard lottie-player {
+        margin: 10px 0;
+    }
 
     /* Solusi */
     .solusi .keterangan h2 {
@@ -889,6 +892,11 @@
     }
     #row-card .card{
         height: 200px;
+    }
+    #row-card .card .card-img-rowCard lottie-player {
+        width: 60px;
+        height: 60px;
+        margin: 8px 0;
     }
         
     
